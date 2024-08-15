@@ -52,6 +52,8 @@ public class Connection {
 				setIn(in);
 				setOut(out);
 				
+				server.close();
+				
 			} catch (IOException err1) {
 				err1.printStackTrace();
 			}
